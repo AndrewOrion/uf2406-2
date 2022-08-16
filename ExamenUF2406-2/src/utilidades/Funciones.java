@@ -1,7 +1,25 @@
 package utilidades;
 
+/**
+ * 
+ * @author Andrew
+ *
+ *Clase que define funciones para devolver número central
+ *y para años bisiestos...
+ *
+ */
+
 public class Funciones {
 	
+	/**
+	 * Método parametrizado que devuelve el número central
+	 * dados tres números
+	 * 
+	 * @param num1
+	 * @param num2
+	 * @param num3
+	 * @return enMedio
+	 */
 	public int devuelveCentral(int num1, int num2, int num3) {
 		
 		int enMedio;
@@ -17,6 +35,12 @@ public class Funciones {
 	}
 	
 
+	/**
+	 * Función que recibe un año y devuelve si es bisiesto o no
+	 * 
+	 * @param anyo
+	 * @return bisiesto
+	 */
 	public boolean esBisiesto(int anyo) {
 		boolean bisiesto = false;
 		if (anyo <1700 || anyo >2500) {
@@ -35,6 +59,7 @@ public class Funciones {
 	}
 	
 
+	
 	
 	
 }
